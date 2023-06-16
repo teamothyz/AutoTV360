@@ -6,7 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ADBHelperLib\ADBHelperLib.csproj" />
+    <ProjectReference Include="..\ADBHelperLib\LDAutoHelper.csproj" />
+    <ProjectReference Include="..\LDAutoHelper\LDAutoHelper.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,7 +3,7 @@ using Emgu.CV;
 using System.Drawing;
 using Emgu.CV.CvEnum;
 
-namespace ADBHelperLib.Image
+namespace LDAutoHelper.Image
 {
     public class ImageHelper
     {
@@ -15,7 +15,7 @@ namespace ADBHelperLib.Image
         public static string GetScreenShotFolder()
         {
             var basePath = AppDomain.CurrentDomain.BaseDirectory;
-            var folderPath = Path.Combine(basePath, "screenshot");
+            var folderPath = Path.Combine(basePath, "screenshots");
             if (!Directory.Exists(folderPath)) Directory.CreateDirectory(folderPath);
             return folderPath;
         }

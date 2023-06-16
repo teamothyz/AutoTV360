@@ -1,4 +1,6 @@
-﻿using ADBHelperLib.ADB;
+﻿using LDAutoHelper;
+using LDAutoHelper.ADB;
+using LDAutoHelper.LDConsole;
 using System;
 using System.Diagnostics;
 using System.Threading;
@@ -9,10 +11,9 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            var devices = ADBHelper.GetDevices();
-            //var tapRs = ADBHelper.Tap(devices[0], 453, 168);
-            //var rs = ADBHelper.Swipe(devices[0], 100, 168, 500, 168, 4);
-            ADBHelper.FindImage(devices[0], "D:/vtp.png");
+            CommonHelper.LDConsolePath = @"C:\LDPlayer\LDPlayer9\ldconsole.exe";
+            var devicesLD = LDHelper.GetDevices2();
+            ADBHelper.Tap(devicesLD[0], 50, 50);
         }
     }
 }
