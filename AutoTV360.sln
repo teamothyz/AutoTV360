@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{DF4D601E-FF25-40B8-BF43-AF055D74BF09}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LDAutoHelper", "LDAutoHelper\LDAutoHelper.csproj", "{CB0264BF-94A9-49B0-BAC2-7972865AFF37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TV360Auto", "TV360Auto\TV360Auto.csproj", "{EDC7CFDA-FEDC-4B15-B995-03900A134AE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DF4D601E-FF25-40B8-BF43-AF055D74BF09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF4D601E-FF25-40B8-BF43-AF055D74BF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF4D601E-FF25-40B8-BF43-AF055D74BF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF4D601E-FF25-40B8-BF43-AF055D74BF09}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CB0264BF-94A9-49B0-BAC2-7972865AFF37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CB0264BF-94A9-49B0-BAC2-7972865AFF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB0264BF-94A9-49B0-BAC2-7972865AFF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB0264BF-94A9-49B0-BAC2-7972865AFF37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC7CFDA-FEDC-4B15-B995-03900A134AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC7CFDA-FEDC-4B15-B995-03900A134AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC7CFDA-FEDC-4B15-B995-03900A134AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC7CFDA-FEDC-4B15-B995-03900A134AE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

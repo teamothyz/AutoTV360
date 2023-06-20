@@ -1,9 +1,8 @@
 ﻿using LDAutoHelper;
 using LDAutoHelper.ADB;
 using LDAutoHelper.LDConsole;
-using System;
-using System.Diagnostics;
 using System.Threading;
+using TV360Auto.Services;
 
 namespace ConsoleApp2
 {
@@ -13,7 +12,7 @@ namespace ConsoleApp2
         {
             CommonHelper.LDConsolePath = @"C:\LDPlayer\LDPlayer9\ldconsole.exe";
             var devicesLD = LDHelper.GetDevices2();
-            ADBHelper.Tap(devicesLD[0], 50, 50);
+            LDService.StartAuto(devicesLD[0], CancellationToken.None);
         }
     }
 }

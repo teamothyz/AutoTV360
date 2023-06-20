@@ -33,15 +33,15 @@ namespace LDAutoHelper.LDConsole
             return devices;
         }
 
-        public static string? Start(string nameOrIndex)
+        public static string? Start(LDDevice device)
         {
-            var command = string.Format(LDConstants.Launch, nameOrIndex);
+            var command = string.Format(LDConstants.Launch, "index", device.Index);
             return CommonHelper.RunLD(command);
         }
 
-        public static string? Quit(string nameOrIndex)
+        public static string? Quit(LDDevice device)
         {
-            var command = string.Format(LDConstants.Quit, nameOrIndex);
+            var command = string.Format(LDConstants.Quit, "index", device.Index);
             return CommonHelper.RunLD(command);
         }
 

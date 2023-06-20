@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks>net6.0-windows</TargetFrameworks>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ADBHelperLib\LDAutoHelper.csproj" />
     <ProjectReference Include="..\LDAutoHelper\LDAutoHelper.csproj" />
+    <ProjectReference Include="..\TV360Auto\TV360Auto.csproj" />
   </ItemGroup>
 
 </Project>

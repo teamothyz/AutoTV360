@@ -6,6 +6,18 @@ namespace LDAutoHelper.ADB
 {
     public class ADBHelper
     {
+        public static string? SendKeyCode(LDDevice device, string keyCode)
+        {
+            var command = string.Format(ADBConstants.SendKeyCode, keyCode);
+            return CommonHelper.RunLDADB(device, command);
+        }
+
+        public static string? Roll(LDDevice device, int x, int y)
+        {
+            var command = string.Format(ADBConstants.Roll, x, y);
+            return CommonHelper.RunLDADB(device, command);
+        }
+
         public static string? Tap(LDDevice device, int x, int y)
         {
             var command = string.Format(ADBConstants.Tap, x, y);

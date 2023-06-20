@@ -7,10 +7,10 @@
         public static readonly string ListDevices2 = "list2";
 
         //device name or index
-        public static readonly string Launch = "launch {0}";
+        public static readonly string Launch = "launch --{0} {1}";
 
         //device name or index
-        public static readonly string Quit = "quit {0}";
+        public static readonly string Quit = "quit --{0} {1}";
 
         public static readonly string QuitAll = "quitall";
     }

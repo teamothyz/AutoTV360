@@ -30,5 +30,11 @@
 
         //text
         public static readonly string SendText = @"shell input text ""{0}""";
+
+        //keycode
+        public static readonly string SendKeyCode = "shell input keyevent {0}";
+
+        //x - y
+        public static readonly string Roll = "shell input roll {0} {1}";
     }
 }
